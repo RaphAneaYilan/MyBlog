@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: "docs"
+
+website:
+  title: "Raphael Yilan Anea"
+  navbar:
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Portfolio"
+        file: portfolio.qmd
+      - text: "CV"
+        file: CV.qmd
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/RaphAneaYilan
+      - icon: linkedin
+        href: https://linkedin.com/raphaelanea
+      - icon: facebook
+        href: https://facebook.com/raphaelanea
+format:
+  html:
+    theme:
+      - yeti
+      - brand
+    css: styles.css
+
+editor: visual
+

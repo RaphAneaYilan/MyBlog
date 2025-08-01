@@ -1,0 +1,15 @@
+---
+title: "Analysis Syndromic Surveillance Data"
+author: "Raphael Anea"
+date: "2025-08-01"
+categories: [Code, Analysis, R]
+image: "diseases_surveillance_system.png"
+---
+
+This was a project using Syndrome Surveillance Data.
+
+You can find more about R here. \[here\] (https://r4epis.netlify.app/){target="\_blank}
+
+```{r}
+1 + 1
+```
