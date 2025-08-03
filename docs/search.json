@@ -7,11 +7,11 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\nMy Work space"
   },
   {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "My Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Raphael Anea",
     "section": "",
-    "text": "This is my Portfolio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAnalysis Syndromic Surveillance Data\n\n\n\n\n\n\nCode\n\n\nAnalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nMy Journey\n\n\n\n\n\n\n\n\n\nJul 29, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\nNo matching items"
+    "text": "MY PERSONAL BIO\nI’m a dedicated public health leader currently serving as the Provincial Disease Control Program Manager and Deputy Incident Manager at the Provincial Emergency Operations Center (PEOC) in Papua New Guinea. In this role, I lead rapid response teams in routine disease surveillance, TB contact tracing, and active case finding—working at the front line to protect and promote community health.\nAs a Field Epidemiologist and junior faculty with FETP in Papua New Guinea (PNG), I am passionate about building capacity, mentoring future health professionals, and strengthening health systems through data-driven strategies.\nWith a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions.\nI bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity."
   },
   {
     "objectID": "CV.html",
@@ -21,24 +21,17 @@
     "text": "This is My Curricullum Vitae"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Raphael Anea",
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "My Blog",
     "section": "",
-    "text": "MY PERSONAL BIO\nI’m a dedicated public health leader currently serving as the Provincial Disease Control Program Manager and Deputy Incident Manager at the Provincial Emergency Operations Center (PEOC) in Papua New Guinea. In this role, I lead rapid response teams in routine disease surveillance, TB contact tracing, and active case finding—working at the front line to protect and promote community health.\nAs a Field Epidemiologist and junior faculty with FETP in Papua New Guinea (PNG), I am passionate about building capacity, mentoring future health professionals, and strengthening health systems through data-driven strategies.\nWith a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions.\nI bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity."
+    "text": "Welcome to my blog!share insights on public health surveillance, field epidemiology, and data analysis using R.Sub-national level experience, of West Sepik Province of Papua New Guinea\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nMy Journey\n\n\n\n\n\n\n\n\n\nJul 29, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWest Sepik Province Syndromic Surveillance Data Analysis\n\n\n\n\n\n\nCode\n\n\nAnalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nOutbreak Investigation Reports\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Analysis Syndromic Surveillance Data",
     "section": "",
-    "text": "This report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html#study-design",
-    "href": "posts/post-with-code/index.html#study-design",
-    "title": "Analysis Syndromic Surveillance Data",
-    "section": "2.1 Study design",
-    "text": "2.1 Study design"
+    "text": "1 Introduction\nThis report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes.\n\n\n2 Methodology\n\n\n3 —\n\n\n4 title: “Analysis Syndromic Surveillance Data”\n\n\n5 author: “Raphael Anea”\n\n\n6 date: “2025-08-01”\n\n\n7 categories: [Code, Analysis, R]\n\n\n8 image: “diseases_surveillance_system.png”\n\n\n9 —\n\n\n10 \n\n\n11 This was a project using Syndrome Surveillance Data.\n\n\n12 \n\n\n13 \n\n\n14 \n\n\n15 {r} # 1 + 1 #\n```"
   }
 ]

@@ -1,7 +1,8 @@
 ---
-title: "Analysis Syndromic Surveillance Data"
+title: "West Sepik Province Syndromic Surveillance Data Analysis"
 author: "Raphael Anea"
 date: "2025-08-01"
+order: 2
 categories: [Code, Analysis, R]
 image: "diseases_surveillance_system.png"
 logo: "logo.png"
@@ -33,5 +34,9 @@ This report presents an analysis of syndromic surveillance data collected from p
 # Analysis
 
 # Results
+
+```{r}
+plot(cars)
+```
 
 # Disscussion

@@ -2,13 +2,14 @@
 title: "My Blog"
 listing:
   contents: posts
-  sort: "date desc"
+  sort: "order asc"
   type: default
   categories: true
   sort-ui: false
   filter-ui: false
 page-layout: full
 title-block-banner: true
+format: html
 ---
 
-This is my Portfolio
+Welcome to my blog!\I share insights on public health surveillance, field epidemiology, and data analysis using R.\A Sub-national level experience, of West Sepik Province of Papua New Guinea

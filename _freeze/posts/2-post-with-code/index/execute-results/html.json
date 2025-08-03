@@ -1,0 +1,17 @@
+{
+  "hash": "b86fc5202c4975d3b48b3bb45961c44f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"West Sepik Province Syndromic Surveillance Data Analysis\"\nauthor: \"Raphael Anea\"\ndate: \"2025-08-01\"\ncategories: [Code, Analysis, R]\nimage: \"diseases_surveillance_system.png\"\nlogo: \"logo.png\"\ntitle-block-banner: true\ntitle-block-style: default\n\nformat:\n  html:\n    toc: true\n    toc-depth: 2\n    theme: cosmo\n    number-sections: true\n    self-contained: true\n    code-fold: true\n    fig-cap-location: bottom\n\neditor_options:\n  chunk_output_type: inline\n---\n\n\n\n\n# Introduction\n\nThis report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes.\n\n# Methodology\n\n## Study design\n\n# Analysis\n\n# Results\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(cars)\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\n\n# Disscussion\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
