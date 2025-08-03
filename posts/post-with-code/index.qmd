@@ -120,7 +120,7 @@ facility_count <- phess_clean %>%
 ```
 
 ::::: panel-tabset
-## Report Completeness
+## Completeness
 
 This is where I will further describe the completeness.
 
@@ -233,7 +233,7 @@ theme(axis.text.x = element_text(angle = 90,
 ```
 :::
 
-## REPORT TIMELINESS
+## TIMELINESS
 
 ```{r}
 
@@ -283,7 +283,7 @@ ggplot(timeliness_rate, aes(x = fct_reorder(health_facility, timeliness_rate, .d
   coord_flip()
 ```
 
-## REPORTING SYNDROMES *(Still a work in progress)*
+## SYNDROMES *(Still a work in progress)*
 
 ::: panel-tabset
 ### *Syndrome Category 1*
