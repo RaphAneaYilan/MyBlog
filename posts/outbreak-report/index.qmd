@@ -50,8 +50,30 @@ pacman::p_load(
 )
 ```
 
-
+::: {.panel-tabset}
 
 # WSP Typhoid Outbreak Report
 
+## Result 1
+```{r}
+plot(penguins)
+```
+
+## Result 2
+```{r}
+plot(penguins)
+```
+
 # WSP Polio Outbreak Report
+
+```{r}
+plot(cars)
+```
+
+# ASF Outbreak Report
+
+```{r}
+plot(women)
+```
+
+
