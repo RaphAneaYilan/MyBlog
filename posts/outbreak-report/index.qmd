@@ -50,6 +50,7 @@ pacman::p_load(
 ```
 
 ::: panel-tabset
+
 # Typhoid Outbreak Report
 
 ## Result 1

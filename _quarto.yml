@@ -24,9 +24,9 @@ website:
 format:
   html:
     theme:
-      - slate
+      - sandstone
       - brand
-    css: styles.css
+    css: bootstrap-sandstone.css
     self-contained: true
     embed-resources: true
 

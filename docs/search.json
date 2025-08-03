@@ -52,21 +52,35 @@
     "objectID": "posts/post-with-code/index.html#report-completeness",
     "href": "posts/post-with-code/index.html#report-completeness",
     "title": "West Sepik Province Syndromic Surveillance Data Analysis",
-    "section": "5.1 Report Completeness",
-    "text": "5.1 Report Completeness\n\n5.1.1 Reports Received\n\n\n\n\n\n\n\n\n\n\n\n5.1.2 Report Coverage"
+    "section": "1 Report Completeness",
+    "text": "1 Report Completeness\n\nReports ReceivedReport Coverage"
   },
   {
     "objectID": "posts/post-with-code/index.html#report-timeliness",
     "href": "posts/post-with-code/index.html#report-timeliness",
     "title": "West Sepik Province Syndromic Surveillance Data Analysis",
-    "section": "5.2 REPORT TIMELINESS",
-    "text": "5.2 REPORT TIMELINESS"
+    "section": "2 REPORT TIMELINESS",
+    "text": "2 REPORT TIMELINESS"
   },
   {
     "objectID": "posts/post-with-code/index.html#reporting-syndromes-still-a-work-in-progress",
     "href": "posts/post-with-code/index.html#reporting-syndromes-still-a-work-in-progress",
     "title": "West Sepik Province Syndromic Surveillance Data Analysis",
-    "section": "5.3 REPORTING SYNDROMES (Still a work in progress)",
-    "text": "5.3 REPORTING SYNDROMES (Still a work in progress)\n\n5.3.1 Syndrome Category 1\n\n\n\n\n\n\n\n\n\n\n\n5.3.2 Syndrome Category 2"
+    "section": "3 REPORTING SYNDROMES (Still a work in progress)",
+    "text": "3 REPORTING SYNDROMES (Still a work in progress)\n\nSyndrome Category 1Syndrome Category 2"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#study-design",
+    "href": "posts/post-with-code/index.html#study-design",
+    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
+    "section": "2.1 Study Design",
+    "text": "2.1 Study Design"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#analysis",
+    "href": "posts/post-with-code/index.html#analysis",
+    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
+    "section": "2.2 Analysis",
+    "text": "2.2 Analysis"
   }
 ]

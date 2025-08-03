@@ -97,13 +97,13 @@ This report presents an analysis of syndromic surveillance data collected from p
 
 ![](diseases_surveillance_system.png)
 
-# METHODOLOGY
+# Methodology
 
-# STUDY DESIGN
+## Study Design
 
-# ANALYSIS
+## Analysis
 
-# RESULTS
+# Results
 
 ```{r exploratory_analysis, include=FALSE}
 # Number of Health Facility Reporting
@@ -119,8 +119,12 @@ facility_count <- phess_clean %>%
 
 ```
 
+::::: panel-tabset
 ## Report Completeness
 
+This is where I will futher describe the completeness.
+
+::: panel-tabset
 ### *Reports Received*
 
 ```{r fig.width=9,fig.height=9}
@@ -225,6 +229,7 @@ theme(axis.text.x = element_text(angle = 90,
                        percent_not_report = round((not_reporting/38)*100))
     )
 ```
+:::
 
 ## REPORT TIMELINESS
 
@@ -278,6 +283,7 @@ ggplot(timeliness_rate, aes(x = fct_reorder(health_facility, timeliness_rate, .d
 
 ## REPORTING SYNDROMES *(Still a work in progress)*
 
+::: panel-tabset
 ### *Syndrome Category 1*
 
 ```{r all_syndromes, fig.height= 7, fig.width=8}
@@ -401,5 +407,7 @@ left_join(all_synd_pivot_long_format, by = "district")
   scale_y_continuous(expand = c(0,0))
 
 ```
+:::
+:::::
 
-# DISCUSSION
+# Discussion
