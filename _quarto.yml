@@ -13,14 +13,14 @@ website:
       - text: "My CV"
         file: CV.qmd
     right:
-      - icon: github
-        href: https://github.com/RaphAneaYilan
       - icon: linkedin
-        href: https://linkedin.com/raphaelanea
+        href: https://www.linkedin.com/in/raphael-anea-783739113
       - icon: facebook
-        href: https://facebook.com/raphaelanea
+        href: https://www.facebook.com/profile.php?id=100086260155966
       - icon: envelope
         href: ryilan.anea01@gmail.com
+      - icon: github
+        href: https://github.com/RaphAneaYilan
 format:
   html:
     theme: default

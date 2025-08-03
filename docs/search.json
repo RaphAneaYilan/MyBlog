@@ -7,11 +7,11 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\nMy Work space"
   },
   {
-    "objectID": "posts/outbreak-report/index.html",
-    "href": "posts/outbreak-report/index.html",
+    "objectID": "posts/outbreak-report/index.html#result-1",
+    "href": "posts/outbreak-report/index.html#result-1",
     "title": "WSP Disease Outbreak Reports",
-    "section": "",
-    "text": "WSP Typhoid Outbreak ReportWSP Polio Outbreak ReportASF Outbreak Report"
+    "section": "Result 1",
+    "text": "Result 1\n\n\n\n\n\n\n\n\n\nResult 2"
   },
   {
     "objectID": "index.html",
@@ -30,7 +30,7 @@
   {
     "objectID": "portfolio.html",
     "href": "portfolio.html",
-    "title": "My Blog",
+    "title": "My Portfolio",
     "section": "",
     "text": "Welcome To My Blog\n\n\n\n\n\n\nMy Journey\n\n\n\n\n\n\n\n\n\nJul 29, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWest Sepik Province Syndromic Surveillance Data Analysis\n\n\n\n\n\n\nCode\n\n\nAnalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWSP Disease Outbreak Reports\n\n\n\n\n\n\nTyphoid Outbreak\n\n\nPolio Outbreak\n\n\nASF Outbreak\n\n\n\n\n\n\n\n\n\nMar 8, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\nNo matching items"
   },
@@ -61,12 +61,5 @@
     "title": "West Sepik Province Syndromic Surveillance Data Analysis",
     "section": "5.3 REPORTING SYNDROMES (Still a work in progress)",
     "text": "5.3 REPORTING SYNDROMES (Still a work in progress)\n\n5.3.1 Syndrome Category 1\n\n\n\n\n\n\n\n\n\n\n\n5.3.2 Syndrome Category 2"
-  },
-  {
-    "objectID": "posts/outbreak-report/index.html#result-1",
-    "href": "posts/outbreak-report/index.html#result-1",
-    "title": "WSP Disease Outbreak Reports",
-    "section": "Result 1",
-    "text": "Result 1\n\n\n\n\n\n\n\n\n\nResult 2"
   }
 ]

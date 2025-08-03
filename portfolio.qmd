@@ -1,5 +1,5 @@
 ---
-title: "My Blog"
+title: "My Portfolio"
 listing:
   contents: posts
   sort: "order asc"

@@ -4,15 +4,15 @@ image: "my_profile_pic.jpg"
 about:
   template: solana
   links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/raphael-anea-783739113
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/profile.php?id=100086260155966
     - icon: envelope-at-fill
       text: Email
       href: ryilan.anea01@gmail.com
-    - icon: facebook
-      text: Facebook
-      href: https://facebook.com/raphaelanea
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com/in/raphaelanea
     - icon: github
       text: GitHub
       href: https://github.com/RaphAneaYilan

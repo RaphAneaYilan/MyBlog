@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #cfc7c2;
+  background-color: #f2f5f5;
   color: #333300;
 }
 
@@ -55,6 +55,50 @@ nav a {
 nav a:hover {
   background: #575757;
 }
+
+/* Remove default list styles */
+.navbar, .dropdown-content {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Horizontal navbar */
+.navbar {
+  display: flex;
+}
+
+/* Dropdown container */
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown menu hidden by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+.dropdown-content a:hover {
+  background-color: #575757;
+}
+
 
 /* Main Content */
 main {
