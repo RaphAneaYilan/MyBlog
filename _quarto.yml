@@ -19,6 +19,8 @@ website:
         href: https://linkedin.com/raphaelanea
       - icon: facebook
         href: https://facebook.com/raphaelanea
+      - icon: envelope
+        href: ryilan.anea01@gmail.com
 format:
   html:
     theme: default

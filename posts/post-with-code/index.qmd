@@ -35,4 +35,18 @@ This report presents an analysis of syndromic surveillance data collected from p
 
 # Results
 
+::: {.panel-tabset}
+
+## Car
+
+```{r}
+plot(penguins)
+```
+
+## Women
+
+```{r}
+plot(women)
+```
+
 # Disscussion

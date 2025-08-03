@@ -1,19 +1,28 @@
 ---
-title: "RAPHAEL ANEA (Mr)"
-image: my_profile_pic.jpg
+title: "Raphael Anea"
+image: "my_profile_pic.jpg"
 about:
-  template: jolla
+  template: solana
   links:
+    - icon: envelope-at-fill
+      text: Email
+      href: ryilan.anea01@gmail.com
     - icon: facebook
       text: Facebook
       href: https://facebook.com/raphaelanea
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com/raphaelanea
+      href: https://linkedin.com/in/raphaelanea
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/RaphAneaYilan
 ---
+
+::: {.panel-tabset}
+
+# About these blog
+
+Purpose of this blog is to published the work of Disease Control, Surveillance and Emergencies in West Sepik Province.
 
 # MY PERSONAL BIO
 
@@ -25,6 +34,4 @@ With a strong interest in data analytics and data science, I regularly use R pro
 
 I bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity.
 
-# About these blog
 
-Purpose of this blog is to published the work of Disease Control, Surveillance and Emergencies in West Sepik Province.

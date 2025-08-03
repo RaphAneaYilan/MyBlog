@@ -12,4 +12,4 @@ title-block-banner: true
 format: html
 ---
 
-Welcome to my blog!\I share insights on public health surveillance, field epidemiology, and data analysis using R.\A Sub-national level experience, of West Sepik Province of Papua New Guinea
+Welcome to my blog! I share insights on public health surveillance, field epidemiology, and data analysis using R. A Sub-national level experience, of West Sepik Province of Papua New Guinea
