@@ -3,6 +3,7 @@ title: "Welcome To My Blog"
 author: "Raphael Anea"
 date: "2025-07-29"
 order: 1
+image: "d2pjourney.jpg"
 format: html
 categories: [My Journey]
 ---
