@@ -122,7 +122,9 @@ facility_count <- phess_clean %>%
 ::::: panel-tabset
 ## Report Completeness
 
-This is where I will futher describe the completeness.
+This is where I will further describe the completeness.
+
+Try linking the the figures intext with figure number.
 
 ::: panel-tabset
 ### *Reports Received*

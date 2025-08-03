@@ -50,10 +50,12 @@ pacman::p_load(
 ```
 
 ::: panel-tabset
+# Typhoid Outbreak
 
-# Typhoid Outbreak Report
-
+::: {.panel-tabset}
 ## Result 1
+
+person variables explained
 
 ```{r}
 plot(penguins)
@@ -61,9 +63,12 @@ plot(penguins)
 
 ## Result 2
 
+place variables explained
+
 ```{r}
 plot(penguins)
 ```
+:::
 
 # Polio Outbreak
 
