@@ -7,8 +7,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #fcddc7;
-  color: #333;
+  background-color: #cfc7c2;
+  color: #333300;
 }
 
 /* Container */
@@ -21,7 +21,7 @@ body {
 /* Header */
 header {
   background: #cfc7c2;
-  color: #fff;
+  color: #000000;
   padding: 20px 0;
   text-align: center;
 }

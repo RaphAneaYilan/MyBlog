@@ -21,9 +21,9 @@ website:
         href: https://facebook.com/raphaelanea
 format:
   html:
-    theme:
-      - yeti
-      - brand
+    theme: default
+      # - yeti
+      # - brand
     css: styles.css
     self-contained: true
     embed-resources: true

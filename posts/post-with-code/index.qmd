@@ -13,7 +13,7 @@ format:
   html:
     toc: true
     toc-depth: 2
-    theme: cosmo
+    theme: default
     number-sections: true
     self-contained: true
     code-fold: true
@@ -29,14 +29,10 @@ This report presents an analysis of syndromic surveillance data collected from p
 
 # Methodology
 
-## Study design
+# Study design
 
 # Analysis
 
 # Results
-
-```{r}
-plot(cars)
-```
 
 # Disscussion

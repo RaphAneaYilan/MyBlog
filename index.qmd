@@ -1,5 +1,5 @@
 ---
-title: "Raphael Anea"
+title: "RAPHAEL ANEA (Mr)"
 image: my_profile_pic.jpg
 about:
   template: jolla
@@ -24,3 +24,7 @@ As a Field Epidemiologist and junior faculty with FETP in Papua New Guinea (PNG)
 With a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions.
 
 I bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity.
+
+# About these blog
+
+Purpose of this blog is to published the work of Disease Control, Surveillance and Emergencies in West Sepik Province.
