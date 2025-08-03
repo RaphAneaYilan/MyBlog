@@ -21,6 +21,6 @@ I’m a dedicated public health leader currently serving as the Provincial Disea
 
 As a Field Epidemiologist and junior faculty with FETP in Papua New Guinea (PNG), I am passionate about building capacity, mentoring future health professionals, and strengthening health systems through data-driven strategies.
 
-With a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions. 
+With a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions.
 
 I bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity.

@@ -12,12 +12,11 @@ format:
   html:
     toc: true
     toc-depth: 2
-    theme: default
+    theme: cosmo
     number-sections: true
     self-contained: true
     code-fold: true
     fig-cap-location: bottom
-    css: style.css
 
 editor_options:
   chunk_output_type: inline
@@ -29,14 +28,10 @@ This report presents an analysis of syndromic surveillance data collected from p
 
 # Methodology
 
-```{r}
-#| include: false
-# Load libraries
-library(tidyverse)
+## Study design
 
-```
+# Analysis
 
-```{r}
-plot(women)
-```
+# Results
 
+# Disscussion
