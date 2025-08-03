@@ -4,12 +4,39 @@ author: "Raphael Anea"
 date: "2025-08-01"
 categories: [Code, Analysis, R]
 image: "diseases_surveillance_system.png"
+logo: "logo.png"
+title-block-banner: true
+title-block-style: default
+
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: default
+    number-sections: true
+    self-contained: true
+    code-fold: true
+    fig-cap-location: bottom
+    css: style.css
+
+editor_options:
+  chunk_output_type: inline
 ---
 
-This was a project using Syndrome Surveillance Data.
+# Introduction
 
-You can find more about R here. \[here\] (https://r4epis.netlify.app/){target="\_blank}
+This report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes.
+
+# Methodology
 
 ```{r}
-1 + 1
+#| include: false
+# Load libraries
+library(tidyverse)
+
 ```
+
+```{r}
+plot(women)
+```
+

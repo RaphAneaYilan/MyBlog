@@ -1,9 +1,11 @@
 {
-  "hash": "16bf3037fad20f49abfaeecc7f8ed9ae",
+  "hash": "5419ea9586b20be337db15431f7532ea",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Post With Code\"\nauthor: \"Harlow Malloc\"\ndate: \"2025-08-01\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\n\n\nThis is a post with executable code.\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Analysis Syndromic Surveillance Data\"\nauthor: \"Raphael Anea\"\ndate: \"2025-08-01\"\ncategories: [Code, Analysis, R]\nimage: \"diseases_surveillance_system.png\"\nlogo: \"logo.png\"\ntitle-block-banner: true\ntitle-block-style: default\n\nformat:\n  html:\n    toc: true\n    toc-depth: 2\n    theme: cosmo\n    number-sections: true\n    self-contained: true\n    code-fold: true\n    fig-cap-location: bottom\n\neditor_options:\n  chunk_output_type: inline\n---\n\n\n\n# Introduction\n\nThis report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes.\n\n# Methodology\n\n\n\n\n\n\n\n\n\n\n\n# ---\n# title: \"Analysis Syndromic Surveillance Data\"\n# author: \"Raphael Anea\"\n# date: \"2025-08-01\"\n# categories: [Code, Analysis, R]\n# image: \"diseases_surveillance_system.png\"\n# ---\n# \n# This was a project using Syndrome Surveillance Data.\n# \n# <!-- You can find more about R here. \\[here\\] (https://r4epis.netlify.app/){target=\"\\_blank} -->\n# \n# ```{r}\n# 1 + 1\n# ```\n```\n\n",
+    "supporting": [
+      "index_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
