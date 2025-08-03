@@ -23,6 +23,8 @@ editor_options:
   chunk_output_type: inline
 ---
 
+![](diseases_surveillance_system.png)
+
 # Introduction
 
 This report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes.
@@ -35,8 +37,7 @@ This report presents an analysis of syndromic surveillance data collected from p
 
 # Results
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## Car
 
 ```{r}
@@ -50,3 +51,4 @@ plot(women)
 ```
 
 # Disscussion
+:::
