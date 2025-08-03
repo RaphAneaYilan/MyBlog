@@ -1,0 +1,15 @@
+{
+  "hash": "c1b8be7f37138e4f72a43f667b34a4d0",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"WSP Disease Outbreak Reports\"\nauthor: \"Raphael Anea\"\norder: 3\nformat:\n  html:\n    self-contained: true\n    theme: cosmo\n    toc: true\n---\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n# WSP Typhoid Outbreak Report\n\n# WSP Polio Outbreak Report",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

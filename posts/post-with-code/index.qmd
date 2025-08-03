@@ -13,7 +13,7 @@ format:
   html:
     toc: true
     toc-depth: 2
-    theme: default
+    theme: cosmos
     number-sections: true
     self-contained: true
     code-fold: true
@@ -23,32 +23,385 @@ editor_options:
   chunk_output_type: inline
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	eval = TRUE,
+	echo = FALSE,
+	warning = FALSE,
+	include = TRUE,
+	message = FALSE
+)
+```
+
+```{r load packages}
+pacman::p_load(
+  rio,          # for importing data
+  here,         # for relative file paths
+  skimr,        # for reviewing the data
+  janitor,      # for cleaning data  
+  epikit,       # for creating age categories
+  tidylog,
+  parsedate,
+  flextable,
+  plotly,
+  reactable,
+  bslib,
+  bsicons,
+  MMWRweek,
+  ISOweek,
+  scales,
+  ggnewscale,
+  tidyr,
+  httr,
+  jsonlite,
+  googlesheets4,
+  ggforce,
+  ggtext,
+  tidyverse    # for data management and visualization
+)
+```
+
+```{r import_googlesheet, include=FALSE}
+
+# Authenticate
+gs4_auth(token = NULL, email = "ryilan.anea01@gmail.com")
+
+# Read the sheet
+phess_raw <- read_sheet("https://docs.google.com/spreadsheets/d/1VOoLpBqgaVp5MwHSx-luWtvU9cMKU64xEJpaSffFYns/edit?gid=876995795#gid=876995795")
+```
+
+```{r clean_data}
+phess_clean <- phess_raw %>% 
+  clean_names() %>% 
+  rename(
+    start_date = "epi_week_start_date",
+    end_date = "epi_week_end_date",
+    afp_0to15yrs      = "acute_flaccid_paralysis_afp_suspect_polio_15yrs_old",
+    afp_15yrsolder    = "acute_flaccid_paralysis_afp_suspect_polio_15yrs_or_older",
+    acute_fever_rash  = "acute_fever_and_rash_afr_suspect_measles",
+    unexplained_disease_deaths = "outbreak_unexplained_disease_deaths",
+    other_respiratory = "other_respiratory_disease",
+    aefi              = "adverse_effects_following_immunization_aefi",
+    ili_sari          ="influenza_like_illness_ili_sari",
+    suspected_yaws    = "yaws_cases") %>% 
+  distinct() %>% 
+  # mutate(across(where(is.character),as.numeric)) %>%
+  mutate(reporting_date = ymd(reporting_date),
+         start_date = ymd(start_date),
+         end_date = ymd(end_date))
+```
+
 ![](diseases_surveillance_system.png)
 
 # Introduction
 
 This report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes.
 
-# Methodology
+# METHODOLOGY
 
-# Study design
+# STUDY DESIGN
 
-# Analysis
+# ANALYSIS
 
-# Results
+# RESULTS
 
-::: panel-tabset
-## Car
+```{r exploratory_analysis, include=FALSE}
+# Number of Health Facility Reporting
+health_facility_count <- phess_clean %>%  # create object health facility num
+  pull(health_facility) %>%               #extract column health facility
+  unique()              %>%               # Use unique values
+  na.omit() %>%                           # removes na
+  length()                                # return only number
 
-```{r}
-plot(penguins)
+# Create Heat Plots Columns only
+facility_count <- phess_clean %>%
+  select(health_facility, district, end_date, simple_cough)
+
 ```
 
-## Women
 
-```{r}
-plot(women)
+## Report Completeness
+
+### _Reports Received_
+
+```{r fig.width=9,fig.height=9}
+
+# Create Week and Count, ie, health facility reports recieved per week
+weekly_count1 <- phess_clean %>% 
+  mutate(epi_week = isoweek(end_date)) %>% 
+  count(epi_week,health_facility, name = "reports_recieved")
+
+# Create week and count, inlcuding facility not reporting during the epi week 
+# as Na
+weekly_count2 <- weekly_count1 %>% 
+  complete(epi_week, health_facility, fill = list(reports_recieved = 0)) %>%
+ mutate(reports_recieved = na_if(reports_recieved, 0)) %>%
+ filter(!is.na(health_facility))
+
+# Creat Heat plot for reports recieved per Health Facilities per Epi Week
+# report_completeness1 <-
+  ggplot(weekly_count2, aes(x = epi_week,
+                         y = health_facility,
+                         fill = reports_recieved)) +
+  geom_tile( color = "white") +
+  scale_fill_gradient(high = "lightgreen",
+                      low = "darkgreen",
+                      na.value = "red") +
+  theme_dark() +
+  labs(title = "WSPHA Weekly Syndromic Surveillance Report Recieved",
+       subtitle = str_glue("By Health Facilities.\nReports, as of epi week {epi_week}",
+    epi_week = isoweek(max(phess_clean$end_date, na.rm = T))),
+    x = "Epi Week Number",
+       y = "Health Facilities",
+       fill = "Number of\nReports Recieved",
+       caption = "Red indicates Zero reports submitted.\nEach Health facility are expected to report once weekly.\nData Source: WSPHA Public Health Events and Syndromic Surveillance, Reports") +
+  theme(
+  plot.title = element_text(size = 16, face = "bold", family = "serif"),
+  axis.text.x = element_text(size = 11, face = "bold"),
+  axis.text.y = element_text(size = 11, face = "bold"),
+  scale_x_continuous(limits = c(0,0)),
+  scale_y_discrete(limits = c(0,0))
+  # strip.text = element_text(size = 14, face = "bold.italic")  # for facet labels
+)
+
 ```
 
-# Disscussion
-:::
+### _Report Coverage_
+
+```{r message=FALSE}
+
+# Count number or reports received per health Facilities
+health_facility_num1 <- phess_clean %>% 
+  tabyl(health_facility) %>% 
+  arrange(desc(n)) %>%  # arrange in order from highest # of reports received
+  mutate(health_facility = fct_na_value_to_level(health_facility, "Missing"))
+
+# print current reporting epi week number
+reporting_epi_week <- isoweek(max(phess_clean$end_date, na.rm = T))
+
+# create column of the reporting epi week number
+health_facility_num1$epi_week <- reporting_epi_week
+
+# create column of proportion reports received from each health facility
+health_facility_num2 <- health_facility_num1 %>% mutate(report_recieved_proportion = n/epi_week)
+
+# Calculate mean percentage average of reports recieved
+percentage <- mean(health_facility_num2$report_recieved_proportion) * 100
+
+# Create plot for report completeness/coverage by Health Facilities
+# report_completeness2 <-
+  ggplot(data = health_facility_num2,
+         # Use of x = fct_reorder to arrange x - values from largest to smallest
+       mapping = aes(x = fct_reorder(health_facility, report_recieved_proportion, .desc = TRUE), 
+                     y = report_recieved_proportion)) +
+  geom_col(fill = "steelblue") +
+  
+
+#add 80% horizontal target line
+  geom_hline(aes(yintercept = 0.8), linetype = "dashed", color = "red", size = 1) +
+
+  # add a text label for the target line
+  # Using annotate is often cleaner than geom_text for single labels
+  annotate("text", x = Inf, y = 0.82, label = "80% Target", hjust = 1, vjust = 0.0, color = "red", fontface = "bold") +
+  
+  # Apply a clean theme
+  theme_bw() +
+theme(axis.text.x = element_text(angle = 90,
+                                 hjust = 1)) +
+  
+  # Format the y-axis labels as percentages and set limits
+  # The limits ensure the 80% target line and its label are clearly visible
+  scale_y_continuous(labels = scales::percent, limits = c(0,1)) +
+  labs(
+    title = "WSPHA Weekly Syndromic Surveillance\nReporting Rate by Health Facility",
+    subtitle =str_glue("Compared to 80% performance target.\nReports recieved as of epi week {epi_week}",
+    epi_week = isoweek(max(phess_clean$end_date, na.rm = T))),
+    x = "Health Facility",
+    y = "Reporting Rate",
+    caption = str_glue("Data Source: WSPHA Public Health Events and Syndromic Surveillance, Reports.\nLast reports were recieved on {report_recieved}.\nAn Average of {percentage_rounded}% report completeness, was achieved, to date.\n{percent_not_report}% ({not_reporting} out of 38) of the reporting facilties are not actively reporting.",
+                       
+                        percentage_rounded = round(percentage,2),
+                        not_reporting = 38 - health_facility_count,
+                       report_recieved = format(max(phess_clean$reporting_date, na.rm = TRUE), "%B %d, %Y"),
+                       percent_not_report = round((not_reporting/38)*100))
+    )
+```
+
+## REPORT TIMELINESS
+
+```{r}
+
+timeliness_data <- phess_clean %>%
+  select(c(-reported_by,-suspect_cholera:-leprosy_cases)) %>% 
+  mutate(
+    deadline = end_date + days(1),        # Add 1 day to end date
+    timely = case_when(
+      is.na(reporting_date) ~ FALSE,      # If reporting date, not timely
+      reporting_date <= deadline ~ TRUE,  # If reported on or before deadline, Timely
+      TRUE ~ FALSE)) # otherwise, not timely
+
+
+# Timeliness rate per facility
+timeliness_rate <- timeliness_data %>%
+  group_by(health_facility) %>% 
+  summarise(
+    reports_expected = n(), # No of expected reports
+    reports_timely = sum(timely, na.rm = TRUE), # No. submitted timely
+    timeliness_rate = round((reports_timely / reports_expected) * 100, 1) # No of % timely
+  )
+
+# Create a plot for timeliess of reports
+# report_timeliness <-
+ggplot(timeliness_rate, aes(x = fct_reorder(health_facility, timeliness_rate, .desc = F), 
+                            y = timeliness_rate)) +
+  geom_col(fill = "steelblue") +
+
+  #add 80% horizontal target line
+  geom_hline(aes(yintercept = 95 ), linetype = "dashed", color = "red", size = 1) +
+
+  # add a text label for the target line
+  # Using annotate is often cleaner than geom_text for single labels
+  annotate("text", x = Inf, y = 95, label = ">=95% Target", angle = 90, hjust = 3.5, vjust = 1.5, color = "red", fontface = "bold") +
+    # bar labels
+  geom_text(aes(label = paste0(timeliness_rate, "%")), vjust = 0.5, hjust = 1.1, size = 3) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5)) +
+  #       axis.text.y = element_text(size = 14)) +
+  #       # axis.text = element_text(size = 10)) +
+  scale_y_continuous(limits = c(0,1)) +
+  labs(title = "Report Timeliness by Facility",
+       subtitle =str_glue("Compared to >=95% target.\nReports recieved as of epi week {epi_week}",
+    epi_week = isoweek(max(phess_clean$end_date, na.rm = T))),
+       y = "Timeliness Rate (%)", x = "") +
+  ylim(0, 100) +
+  coord_flip()
+```
+
+## REPORTING SYNDROMES _(Still a work in progress)_
+ 
+### _Syndrome Category 1_
+
+```{r all_syndromes, fig.height= 7, fig.width=8}
+
+# Step 1: Select relevant columns
+all_syndromes <- phess_clean %>%
+  select(district,reporting_date, suspect_cholera:leprosy_cases) %>% 
+  
+
+# Step 2: Check for list-columns
+# sapply(long_format, class)
+
+# Force conversion of list-columns to numeric where possible
+  mutate(across(suspect_cholera:leprosy_cases, ~ as.numeric(as.character(.))))
+  
+
+all_synd_pivot_long_format <- all_syndromes%>%
+  pivot_longer(cols = 3:24,
+               names_to = "variables",
+               values_to = "values") %>% 
+  mutate(syndromes = case_when(
+    variables %in% c(
+      "suspect_cholera",
+      "afp_0to15yrs",
+      "afp_15yrsolder",
+      "acute_fever_rash",
+      "suspect_dengue_fever",
+      "hemorrhagic_fever_ebola",
+      "unexplained_disease_deaths",  # corrected spelling
+      "diphtheria",
+      "neonatal_tetanus_nnt",
+      "tetanus_of_all_ages",
+      "aefi"
+    ) ~ "Urgent Notifiable Syndromes",
+    
+    variables %in% c(
+      "pertussis",
+      "simple_cough",
+      "other_respiratory", 
+      "ili_sari",
+      "presumptive_tb"
+    ) ~ "Respiratory Syndromes",  # corrected spelling
+    
+    variables %in% c(
+      "dysentery",
+      "suspect_malaria",
+      "suspected_yaws",
+      "typhoid",
+      "lymphatic_filariasis",
+      "leprosy_cases") 
+    ~"Other Syndromes",
+    
+    TRUE ~ "Unknown"
+  ))
+
+# syndromes <-
+  all_synd_pivot_long_format %>%
+  group_by(district, variables, syndromes) %>%
+  summarise(total = sum(values, na.rm = TRUE)) %>%
+  ggplot(aes(x = variables, y = total, fill = district)) +
+  geom_col() +
+  facet_wrap(~ syndromes, scales = "free",
+             ncol = 1) +
+  theme_bw() +
+  labs(
+    title = "Syndromes Categories",
+    subtitle =str_glue("Reports recieved as of epi week {epi_week}",
+                        epi_week = isoweek(max(phess_clean$end_date, na.rm = T))),
+    x = "Syndromes",
+    y = "Total Cases",
+    fill = "District",
+    caption ="Data Source: WSPHA Public Health Events and Syndromic Surveillance, Report."
+  ) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+  # plot.title = element_text(size = 10, face = "bold", family = "serif"),
+  axis.text.y = element_text(size = 10, face = "bold"),
+  strip.text = element_text(size = 10), # for facet labels
+  legend.position = "top"
+) + coord_flip() +
+  scale_y_continuous(expand = c(0,0))
+
+
+```
+
+### _Syndrome Category 2_
+
+```{r fig.height= 15}
+# Join all_synd_pivot_long_format with facility count
+combined <- 
+  facility_count %>% 
+  select(-simple_cough) %>% 
+left_join(all_synd_pivot_long_format, by = "district")
+
+# syndromesbyHF <-
+  combined %>%
+  group_by(district, health_facility,reporting_date, variables, syndromes,values) %>%
+  summarise(total = sum(values, na.rm = TRUE)) %>%
+  ggplot(aes(x = fct_reorder(health_facility, total), y = total, fill = variables)) +
+  # geom_col()+
+  geom_col(position = position_dodge(width = 0.9), width = 1) +
+  # facet_wrap(~district, scales = "free",
+  #            ncol = 1) +
+    facet_grid(syndromes ~ district, scales = "free") +
+  theme_bw() +
+  labs(
+    title = "Syndromes Categories",
+    subtitle =str_glue("Reports recieved as of epi week {epi_week}",
+                        epi_week = isoweek(max(phess_clean$end_date, na.rm = T))),
+    x = "Health Facilities",
+    y = "Total Cases",
+    fill = "Syndromes",
+    caption ="Data Source: WSPHA Public Health Events and Syndromic Surveillance, Report."
+  ) +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 10, face = "bold"),
+  # plot.title = element_text(size = 10, face = "bold", family = "serif"),
+  axis.text.y = element_text(size = 10, face = "bold"),
+  strip.text = element_text(size = 10, face = "bold"), # for facet labels
+  legend.position = "top"
+) + 
+    # coord_flip() +
+  scale_y_continuous(expand = c(0,0))
+
+```
+
+# DISCUSSION
+

@@ -1,11 +1,61 @@
 ---
-title: "Outbreak Investigation Reports"
+title: "WSP Disease Outbreak Reports"
+author: "Raphael Anea"
 order: 3
-format: html
+format:
+  html:
+    self-contained: true
+    theme: cosmo
+    toc: true
 ---
 
-# Main {.tabset}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	eval = TRUE,
+	echo = FALSE,
+	warning = FALSE,
+	include = TRUE,
+	message = FALSE
+)
+```
 
-## Report 1
+```{r load packages}
+pacman::p_load(
+  rio,          # for importing data
+  here,         # for relative file paths
+  skimr,        # for reviewing the data
+  janitor,      # for cleaning data  
+  epikit,       # for creating age categories
+  tidylog,
+  parsedate,
+  flextable,
+  plotly,
+  reactable,
+  bslib,
+  bsicons,
+  MMWRweek,
+  ISOweek,
+  scales,
+  ggnewscale,
+  tidyr,
+  httr,
+  jsonlite,
+  googlesheets4,
+  ggforce,
+  ggtext,
+  tidyverse    # for data management and visualization
+)
+```
 
-## Report 2
+```{r import_googlesheet, include=FALSE}
+
+# Authenticate
+gs4_auth(token = NULL, email = "ryilan.anea01@gmail.com")
+
+# Read the sheet
+phess_raw <- read_sheet("https://docs.google.com/spreadsheets/d/1VOoLpBqgaVp5MwHSx-luWtvU9cMKU64xEJpaSffFYns/edit?gid=876995795#gid=876995795")
+```
+
+# WSP Typhoid Outbreak Report
+
+# WSP Polio Outbreak Report

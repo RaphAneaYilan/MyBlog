@@ -25,7 +25,7 @@
     "href": "portfolio.html",
     "title": "My Blog",
     "section": "",
-    "text": "Acknowledgement to West Sepik Provincial Health Authority\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nMy Journey\n\n\n\n\n\n\n\n\n\nJul 29, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWest Sepik Province Syndromic Surveillance Data Analysis\n\n\n\n\n\n\nCode\n\n\nAnalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nOutbreak Investigation Reports\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Acknowledgement to West Sepik Provincial Health Authority\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nMy Journey\n\n\n\n\n\n\n\n\n\nJul 29, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWest Sepik Province Syndromic Surveillance Data Analysis\n\n\n\n\n\n\nCode\n\n\nAnalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWSP Disease Outbreak Reports\n\n\n\n\n\n\n\n\n\n\n\nRaphael Anea\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -33,5 +33,61 @@
     "title": "West Sepik Province Syndromic Surveillance Data Analysis",
     "section": "",
     "text": "1 Introduction\nThis report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes.\n\n\n2 Methodology\n\n\n3 Study design\n\n\n4 Analysis\n\n\n5 Results\n\nCarWomen\n\n\n\n\nCode\nplot(penguins)\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nplot(women)\n\n\n\n\n\n\n\n\n\n\n6 Disscussion"
+  },
+  {
+    "objectID": "posts/outbreak-report/index.html#report-1",
+    "href": "posts/outbreak-report/index.html#report-1",
+    "title": "WSP Public Health Syndromic Surveillance Dashboard",
+    "section": "Report 1",
+    "text": "Report 1"
+  },
+  {
+    "objectID": "posts/outbreak-report/index.html#report-2",
+    "href": "posts/outbreak-report/index.html#report-2",
+    "title": "WSP Public Health Syndromic Surveillance Dashboard",
+    "section": "Report 2",
+    "text": "Report 2"
+  },
+  {
+    "objectID": "posts/outbreak-report/index.html",
+    "href": "posts/outbreak-report/index.html",
+    "title": "WSP Disease Outbreak Reports",
+    "section": "",
+    "text": "WSP Typhoid Outbreak Report\n\n\nWSP Polio Outbreak Report"
+  },
+  {
+    "objectID": "posts/outbreak-report/index.html#syndrome-category-1",
+    "href": "posts/outbreak-report/index.html#syndrome-category-1",
+    "title": "WSP Public Health Syndromic Surveillance Dashboard",
+    "section": "Syndrome Category 1",
+    "text": "Syndrome Category 1"
+  },
+  {
+    "objectID": "posts/outbreak-report/index.html#syndrome-category-2",
+    "href": "posts/outbreak-report/index.html#syndrome-category-2",
+    "title": "WSP Public Health Syndromic Surveillance Dashboard",
+    "section": "Syndrome Category 2",
+    "text": "Syndrome Category 2"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#report-completeness",
+    "href": "posts/post-with-code/index.html#report-completeness",
+    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
+    "section": "5.1 Report Completeness",
+    "text": "5.1 Report Completeness\n\n5.1.1 Reports Received\n\n\n\n\n\n\n\n\n\n\n\n5.1.2 Report Coverage"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#report-timeliness",
+    "href": "posts/post-with-code/index.html#report-timeliness",
+    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
+    "section": "5.2 REPORT TIMELINESS",
+    "text": "5.2 REPORT TIMELINESS"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#reporting-syndromes-still-a-work-in-progress",
+    "href": "posts/post-with-code/index.html#reporting-syndromes-still-a-work-in-progress",
+    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
+    "section": "5.3 REPORTING SYNDROMES (Still a work in progress)",
+    "text": "5.3 REPORTING SYNDROMES (Still a work in progress)\n\n5.3.1 Syndrome Category 1\n\n\n\n\n\n\n\n\n\n\n\n5.3.2 Syndrome Category 2"
   }
 ]
