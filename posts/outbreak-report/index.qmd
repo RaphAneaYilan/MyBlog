@@ -1,7 +1,10 @@
 ---
 title: "WSP Disease Outbreak Reports"
 author: "Raphael Anea"
+date: "03/08/2025"
 order: 3
+categories: [Typhoid Outbreak, Polio Outbreak, ASF Outbreak]
+image: "outbreak_investigation.jpg"
 format:
   html:
     self-contained: true
@@ -47,14 +50,7 @@ pacman::p_load(
 )
 ```
 
-```{r import_googlesheet, include=FALSE}
 
-# Authenticate
-gs4_auth(token = NULL, email = "ryilan.anea01@gmail.com")
-
-# Read the sheet
-phess_raw <- read_sheet("https://docs.google.com/spreadsheets/d/1VOoLpBqgaVp5MwHSx-luWtvU9cMKU64xEJpaSffFYns/edit?gid=876995795#gid=876995795")
-```
 
 # WSP Typhoid Outbreak Report
 

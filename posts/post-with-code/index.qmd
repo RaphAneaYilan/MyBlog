@@ -91,11 +91,11 @@ phess_clean <- phess_raw %>%
          end_date = ymd(end_date))
 ```
 
-![](diseases_surveillance_system.png)
-
 # Introduction
 
 This report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes.
+
+![](diseases_surveillance_system.png)
 
 # METHODOLOGY
 
@@ -119,10 +119,9 @@ facility_count <- phess_clean %>%
 
 ```
 
-
 ## Report Completeness
 
-### _Reports Received_
+### *Reports Received*
 
 ```{r fig.width=9,fig.height=9}
 
@@ -166,7 +165,7 @@ weekly_count2 <- weekly_count1 %>%
 
 ```
 
-### _Report Coverage_
+### *Report Coverage*
 
 ```{r message=FALSE}
 
@@ -277,9 +276,9 @@ ggplot(timeliness_rate, aes(x = fct_reorder(health_facility, timeliness_rate, .d
   coord_flip()
 ```
 
-## REPORTING SYNDROMES _(Still a work in progress)_
- 
-### _Syndrome Category 1_
+## REPORTING SYNDROMES *(Still a work in progress)*
+
+### *Syndrome Category 1*
 
 ```{r all_syndromes, fig.height= 7, fig.width=8}
 
@@ -363,7 +362,7 @@ all_synd_pivot_long_format <- all_syndromes%>%
 
 ```
 
-### _Syndrome Category 2_
+### *Syndrome Category 2*
 
 ```{r fig.height= 15}
 # Join all_synd_pivot_long_format with facility count
@@ -404,4 +403,3 @@ left_join(all_synd_pivot_long_format, by = "district")
 ```
 
 # DISCUSSION
-

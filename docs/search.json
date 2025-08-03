@@ -1,54 +1,5 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\nMy Work space"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Raphael Anea",
-    "section": "",
-    "text": "About these blogMY PERSONAL BIO\n\n\nPurpose of this blog is to published the work of Disease Control, Surveillance and Emergencies in West Sepik Province.\n\n\nI’m a dedicated public health leader currently serving as the Provincial Disease Control Program Manager and Deputy Incident Manager at the Provincial Emergency Operations Center (PEOC) in Papua New Guinea. In this role, I lead rapid response teams in routine disease surveillance, TB contact tracing, and active case finding—working at the front line to protect and promote community health.\nAs a Field Epidemiologist and junior faculty with FETP in Papua New Guinea (PNG), I am passionate about building capacity, mentoring future health professionals, and strengthening health systems through data-driven strategies.\nWith a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions.\nI bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity."
-  },
-  {
-    "objectID": "CV.html",
-    "href": "CV.html",
-    "title": "Raphael Yilan Anea",
-    "section": "",
-    "text": "This is My Curricullum Vitae"
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "My Blog",
-    "section": "",
-    "text": "Acknowledgement to West Sepik Provincial Health Authority\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nMy Journey\n\n\n\n\n\n\n\n\n\nJul 29, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWest Sepik Province Syndromic Surveillance Data Analysis\n\n\n\n\n\n\nCode\n\n\nAnalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWSP Disease Outbreak Reports\n\n\n\n\n\n\n\n\n\n\n\nRaphael Anea\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
-    "section": "",
-    "text": "1 Introduction\nThis report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes.\n\n\n2 Methodology\n\n\n3 Study design\n\n\n4 Analysis\n\n\n5 Results\n\nCarWomen\n\n\n\n\nCode\nplot(penguins)\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nplot(women)\n\n\n\n\n\n\n\n\n\n\n6 Disscussion"
-  },
-  {
-    "objectID": "posts/outbreak-report/index.html#report-1",
-    "href": "posts/outbreak-report/index.html#report-1",
-    "title": "WSP Public Health Syndromic Surveillance Dashboard",
-    "section": "Report 1",
-    "text": "Report 1"
-  },
-  {
-    "objectID": "posts/outbreak-report/index.html#report-2",
-    "href": "posts/outbreak-report/index.html#report-2",
-    "title": "WSP Public Health Syndromic Surveillance Dashboard",
-    "section": "Report 2",
-    "text": "Report 2"
-  },
-  {
     "objectID": "posts/outbreak-report/index.html",
     "href": "posts/outbreak-report/index.html",
     "title": "WSP Disease Outbreak Reports",
@@ -56,18 +7,25 @@
     "text": "WSP Typhoid Outbreak Report\n\n\nWSP Polio Outbreak Report"
   },
   {
-    "objectID": "posts/outbreak-report/index.html#syndrome-category-1",
-    "href": "posts/outbreak-report/index.html#syndrome-category-1",
-    "title": "WSP Public Health Syndromic Surveillance Dashboard",
-    "section": "Syndrome Category 1",
-    "text": "Syndrome Category 1"
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\nMy Work space"
   },
   {
-    "objectID": "posts/outbreak-report/index.html#syndrome-category-2",
-    "href": "posts/outbreak-report/index.html#syndrome-category-2",
-    "title": "WSP Public Health Syndromic Surveillance Dashboard",
-    "section": "Syndrome Category 2",
-    "text": "Syndrome Category 2"
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "Welcome To My Blog\n\n\n\n\n\n\nMy Journey\n\n\n\n\n\n\n\n\n\nJul 29, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWest Sepik Province Syndromic Surveillance Data Analysis\n\n\n\n\n\n\nCode\n\n\nAnalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWSP Disease Outbreak Reports\n\n\n\n\n\n\nTyphoid Outbreak\n\n\nPolio Outbreak\n\n\nASF Outbreak\n\n\n\n\n\n\n\n\n\nMar 8, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Raphael Yilan Anea",
+    "section": "",
+    "text": "My Curriculum Vitae"
   },
   {
     "objectID": "posts/post-with-code/index.html#report-completeness",
@@ -89,5 +47,19 @@
     "title": "West Sepik Province Syndromic Surveillance Data Analysis",
     "section": "5.3 REPORTING SYNDROMES (Still a work in progress)",
     "text": "5.3 REPORTING SYNDROMES (Still a work in progress)\n\n5.3.1 Syndrome Category 1\n\n\n\n\n\n\n\n\n\n\n\n5.3.2 Syndrome Category 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Raphael Anea",
+    "section": "",
+    "text": "About these blogMY PERSONAL BIOAcknowledgement\n\n\nPurpose of this blog is to published the work of Disease Control, Surveillance and Emergencies in West Sepik Province.\n\n\nI’m a dedicated public health leader currently serving as the Provincial Disease Control Program Manager and Deputy Incident Manager at the Provincial Emergency Operations Center (PEOC) in Papua New Guinea. In this role, I lead rapid response teams in routine disease surveillance, TB contact tracing, and active case finding—working at the front line to protect and promote community health.\nAs a Field Epidemiologist and junior faculty with FETP in Papua New Guinea (PNG), I am passionate about building capacity, mentoring future health professionals, and strengthening health systems through data-driven strategies.\nWith a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions.\nI bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
+    "section": "",
+    "text": "This report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes."
   }
 ]
