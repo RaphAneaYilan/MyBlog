@@ -49,10 +49,10 @@ pacman::p_load(
 )
 ```
 
-::: panel-tabset
+:::: panel-tabset
 # Typhoid Outbreak
 
-::: {.panel-tabset}
+::: panel-tabset
 ## Result 1
 
 person variables explained
@@ -81,4 +81,4 @@ plot(cars)
 ```{r}
 plot(women)
 ```
-:::
+::::
