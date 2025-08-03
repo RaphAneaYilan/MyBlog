@@ -4,7 +4,9 @@ author: "Raphael Anea"
 date: "2025-07-29"
 order: 1
 image: "d2pjourney.jpg"
-format: html
+format: 
+  html:
+    theme: sandstone
 categories: [My Journey]
 ---
 

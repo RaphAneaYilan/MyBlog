@@ -3,12 +3,11 @@ title: "WSP Disease Outbreak Reports"
 author: "Raphael Anea"
 date: "03/08/2025"
 order: 3
-categories: [Typhoid Outbreak, Polio Outbreak, ASF Outbreak]
 image: "outbreak_investigation.jpg"
 format:
   html:
     self-contained: true
-    theme: cosmo
+    theme: sandstone
     toc: true
 ---
 
@@ -50,30 +49,30 @@ pacman::p_load(
 )
 ```
 
-::: {.panel-tabset}
-
-# WSP Typhoid Outbreak Report
+::: panel-tabset
+# Typhoid Outbreak Report
 
 ## Result 1
+
 ```{r}
 plot(penguins)
 ```
 
 ## Result 2
+
 ```{r}
 plot(penguins)
 ```
 
-# WSP Polio Outbreak Report
+# Polio Outbreak
 
 ```{r}
 plot(cars)
 ```
 
-# ASF Outbreak Report
+# ASF Outbreak
 
 ```{r}
 plot(women)
 ```
-
-
+:::

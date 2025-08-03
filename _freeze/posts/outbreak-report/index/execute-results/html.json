@@ -1,8 +1,8 @@
 {
-  "hash": "92c64745ffa90a8f41ec85a854137380",
+  "hash": "4533f94dba5636db2b00d229348cccfc",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"WSP Disease Outbreak Reports\"\nauthor: \"Raphael Anea\"\ndate: \"03/08/2025\"\norder: 3\ncategories: [Typhoid Outbreak, Polio Outbreak, ASF Outbreak]\nimage: \"outbreak_investigation.jpg\"\nformat:\n  html:\n    self-contained: true\n    theme: cosmo\n    toc: true\n---\n\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.panel-tabset}\n\n# WSP Typhoid Outbreak Report\n\n## Result 1\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\nResult 2\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n\n# WSP Polio Outbreak Report\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\n\n# ASF Outbreak Report\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n",
+    "markdown": "---\ntitle: \"WSP Disease Outbreak Reports\"\nauthor: \"Raphael Anea\"\ndate: \"03/08/2025\"\norder: 3\nimage: \"outbreak_investigation.jpg\"\nformat:\n  html:\n    self-contained: true\n    theme: sandstone\n    toc: true\n---\n\n\n\n::: {.cell}\n\n:::\n\n\n\n::: panel-tabset\n# Typhoid Outbreak Report\n\n## Result 1\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\n## Result 2\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n\n# Polio Outbreak\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\n\n# ASF Outbreak\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-4-1.png){width=672}\n:::\n:::\n\n\n:::\n",
     "supporting": [
       "index_files"
     ],

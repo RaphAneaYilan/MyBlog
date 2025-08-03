@@ -13,7 +13,7 @@ format:
   html:
     toc: true
     toc-depth: 2
-    theme: cosmos
+    theme: sandstone
     number-sections: true
     self-contained: true
     code-fold: true

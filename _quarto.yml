@@ -23,9 +23,9 @@ website:
         href: https://github.com/RaphAneaYilan
 format:
   html:
-    theme: default
-      # - yeti
-      # - brand
+    theme:
+      - slate
+      - brand
     css: styles.css
     self-contained: true
     embed-resources: true
