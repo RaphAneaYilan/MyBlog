@@ -126,7 +126,6 @@ This is where I will further describe the completeness.
 
 Try linking the the figures intext with figure number.
 
-::: panel-tabset
 ### *Reports Received*
 
 ```{r fig.width=9,fig.height=9}
@@ -231,7 +230,6 @@ theme(axis.text.x = element_text(angle = 90,
                        percent_not_report = round((not_reporting/38)*100))
     )
 ```
-:::
 
 ## TIMELINESS
 
@@ -285,7 +283,6 @@ ggplot(timeliness_rate, aes(x = fct_reorder(health_facility, timeliness_rate, .d
 
 ## SYNDROMES *(Still a work in progress)*
 
-::: panel-tabset
 ### *Syndrome Category 1*
 
 ```{r all_syndromes, fig.height= 7, fig.width=8}
@@ -409,7 +406,6 @@ left_join(all_synd_pivot_long_format, by = "district")
   scale_y_continuous(expand = c(0,0))
 
 ```
-:::
 :::::
 
 # Discussion

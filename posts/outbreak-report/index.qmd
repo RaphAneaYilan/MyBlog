@@ -52,7 +52,6 @@ pacman::p_load(
 :::: panel-tabset
 # Typhoid Outbreak
 
-::: panel-tabset
 ## Result 1
 
 person variables explained
@@ -68,7 +67,7 @@ place variables explained
 ```{r}
 plot(penguins)
 ```
-:::
+
 
 # Polio Outbreak
 

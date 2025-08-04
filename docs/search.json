@@ -7,18 +7,11 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\nMy Work space"
   },
   {
-    "objectID": "posts/outbreak-report/index.html#result-1",
-    "href": "posts/outbreak-report/index.html#result-1",
+    "objectID": "posts/outbreak-report/index.html",
+    "href": "posts/outbreak-report/index.html",
     "title": "WSP Disease Outbreak Reports",
-    "section": "Result 1",
-    "text": "Result 1"
-  },
-  {
-    "objectID": "posts/outbreak-report/index.html#result-2",
-    "href": "posts/outbreak-report/index.html#result-2",
-    "title": "WSP Disease Outbreak Reports",
-    "section": "Result 2",
-    "text": "Result 2"
+    "section": "",
+    "text": "Typhoid OutbreakPolio OutbreakASF Outbreak\n\n\n\nResult 1Result 2\n\n\nperson variables explained\n\n\n\n\n\n\n\n\n\n\n\nplace variables explained"
   },
   {
     "objectID": "index.html",
@@ -49,27 +42,6 @@
     "text": "This report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes."
   },
   {
-    "objectID": "posts/post-with-code/index.html#report-completeness",
-    "href": "posts/post-with-code/index.html#report-completeness",
-    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
-    "section": "1 Report Completeness",
-    "text": "1 Report Completeness\n\nReports ReceivedReport Coverage"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html#report-timeliness",
-    "href": "posts/post-with-code/index.html#report-timeliness",
-    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
-    "section": "2 REPORT TIMELINESS",
-    "text": "2 REPORT TIMELINESS"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html#reporting-syndromes-still-a-work-in-progress",
-    "href": "posts/post-with-code/index.html#reporting-syndromes-still-a-work-in-progress",
-    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
-    "section": "3 REPORTING SYNDROMES (Still a work in progress)",
-    "text": "3 REPORTING SYNDROMES (Still a work in progress)\n\nSyndrome Category 1Syndrome Category 2"
-  },
-  {
     "objectID": "posts/post-with-code/index.html#study-design",
     "href": "posts/post-with-code/index.html#study-design",
     "title": "West Sepik Province Syndromic Surveillance Data Analysis",
@@ -84,10 +56,17 @@
     "text": "2.2 Analysis"
   },
   {
-    "objectID": "posts/outbreak-report/index.html",
-    "href": "posts/outbreak-report/index.html",
+    "objectID": "posts/outbreak-report/index.html#result-1",
+    "href": "posts/outbreak-report/index.html#result-1",
     "title": "WSP Disease Outbreak Reports",
-    "section": "",
-    "text": "Typhoid OutbreakPolio OutbreakASF Outbreak\n\n\n\nResult 1Result 2\n\n\nperson variables explained\n\n\n\n\n\n\n\n\n\n\n\nplace variables explained"
+    "section": "Result 1",
+    "text": "Result 1\nperson variables explained"
+  },
+  {
+    "objectID": "posts/outbreak-report/index.html#result-2",
+    "href": "posts/outbreak-report/index.html#result-2",
+    "title": "WSP Disease Outbreak Reports",
+    "section": "Result 2",
+    "text": "Result 2\nplace variables explained"
   }
 ]

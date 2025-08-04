@@ -18,8 +18,7 @@ about:
       href: https://github.com/RaphAneaYilan
 ---
 
-::: {.panel-tabset}
-
+::: panel-tabset
 # About these blog
 
 Purpose of this blog is to published the work of Disease Control, Surveillance and Emergencies in West Sepik Province.
@@ -35,4 +34,4 @@ With a strong interest in data analytics and data science, I regularly use R pro
 I bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity.
 
 # Acknowledgement
-
+:::
