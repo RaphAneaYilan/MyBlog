@@ -49,7 +49,7 @@ pacman::p_load(
 )
 ```
 
-:::: panel-tabset
+::: panel-tabset
 # Typhoid Outbreak
 
 ## Result 1
@@ -68,7 +68,6 @@ place variables explained
 plot(penguins)
 ```
 
-
 # Polio Outbreak
 
 ```{r}
@@ -78,6 +77,21 @@ plot(cars)
 # ASF Outbreak
 
 ```{r}
+#| label: fig-women
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
 plot(women)
 ```
-::::
+
+@fig-airquality further explores the impact of temperature on ozone level.
+
+```{r}
+#| label: fig-airquality
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+```
+:::

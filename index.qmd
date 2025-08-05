@@ -1,5 +1,5 @@
 ---
-title: "Raphael Anea"
+title: "Raphael Yilan Onilleh Anea"
 image: "my_profile_pic.jpg"
 about:
   template: solana

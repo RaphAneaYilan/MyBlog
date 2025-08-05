@@ -3,13 +3,35 @@ project:
   output-dir: "docs"
 
 website:
-  title: "Raphael Yilan Anea"
+  title: "My Personal Blog"
+  sidebar:
+    title: "My Portfolio"
+    style: "floating"     # or "docked" or "overlay"
+    search: true          # optional search box
+    contents:
+      - href: index.qmd
+        text: Home
+      # - href: portfolio.qmd
+      #   text: Portfolio
+      - section: Portfolio
+        contents: 
+          - href: posts/outbreak-report/index.qmd
+            text: WSP Outbreak Reports
+          - href: posts/post-with-code/index.qmd
+            text: WSP Syndromic Surveillance Updates
   navbar:
     left:
       - text: "Home"
         file: index.qmd
       - text: "Portfolio"
-        file: portfolio.qmd
+        # file: portfolio.qmd
+        menu: 
+          - text: "Welcome blog"
+            file: posts/welcome/index.qmd
+          - text: "Surveillance Report"
+            file: posts/post-with-code/index.qmd
+          - text: "Outbreak Reports"
+            file: posts/outbreak-report/index.qmd
       - text: "My CV"
         file: CV.qmd
     right:
@@ -20,7 +42,11 @@ website:
       - icon: envelope
         href: ryilan.anea01@gmail.com
       - icon: github
-        href: https://github.com/RaphAneaYilan
+        menu: 
+          - text: Source Code
+            href: https://github.com/RaphAneaYilan/MyBlog/blob/main/index.qmd
+          - text: Report a Bug
+            href: https://github.com/RaphAneaYilan/MyBlog/issues
 format:
   html:
     theme:
