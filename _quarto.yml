@@ -22,21 +22,21 @@ website:
     type: info
     position: below-navbar
     
-  # sidebar:
-  #   title: "My Portfolio"
-  #   style: "floating"     # or "docked" or "overlay"
-  #   search: true          # optional search box
-  #   contents:
-  #     - href: index.qmd
-  #       text: Home
-  #     # - href: portfolio.qmd
-  #     #   text: Portfolio
-  #     - section: Portfolio
-  #       contents: 
-  #         - href: posts/outbreak-report/index.qmd
-  #           text: WSP Outbreak Reports
-  #         - href: posts/post-with-code/index.qmd
-  #           text: WSP Syndromic Surveillance Updates
+  sidebar:
+    title: "My Portfolio"
+    style: "floating"     # or "docked" or "overlay"
+    search: true          # optional search box
+    contents:
+      - href: index.qmd
+        text: Home
+      # - href: portfolio.qmd
+      #   text: Portfolio
+      - section: Portfolio
+        contents:
+          - href: posts/outbreak-report/index.qmd
+            text: WSP Outbreak Reports
+          - href: posts/post-with-code/index.qmd
+            text: WSP Syndromic Surveillance Updates
   navbar:
     left:
       - text: "Home"
