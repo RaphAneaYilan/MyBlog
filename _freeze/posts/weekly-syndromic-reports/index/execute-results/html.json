@@ -1,0 +1,17 @@
+{
+  "hash": "ca1efb3797f959b9f685921843dd16b4",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"West Sepik Province Syndromic Surveillance Data Analysis\"\nauthor: \"Raphael Anea\"\ndate: \"2025-08-05\"\norder: 2\ncategories: [Code, Analysis, R, Disease Surveillance]\nimage: \"diseases_surveillance_system.png\"\n# logo: \"logo.png\"\ntitle-block-banner: true\ntitle-block-style: manuscript\n\nformat:\n  html:\n    toc: true\n    toc-depth: 2\n    theme: sandstone\n    number-sections: true\n    self-contained: true\n    code-fold: true\n    fig-cap-location: bottom\n\neditor_options:\n  chunk_output_type: inline\n---\n\n\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n\n# REPORT COMPLETENESS\n\n## Reports Received\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=864}\n:::\n:::\n\n\n\n\n## Report Coverage\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n\n\n# REPORT TIMELINESS\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\n\n\n# REPORTING SYNDROMES _(Still a work in progress)_\n\n\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n\n## Urgent Notifiable Syndromes\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-5-1.png){width=672}\n:::\n:::\n\n\n\n\n## Respiratory Syndromes\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-6-1.png){width=672}\n:::\n:::\n\n\n\n\n## Other Syndromes\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-7-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

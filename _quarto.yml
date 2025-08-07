@@ -3,37 +3,56 @@ project:
   output-dir: "docs"
 
 website:
-  title: "My Personal Blog"
-  sidebar:
-    title: "My Portfolio"
-    style: "floating"     # or "docked" or "overlay"
-    search: true          # optional search box
-    contents:
-      - href: index.qmd
-        text: Home
-      # - href: portfolio.qmd
-      #   text: Portfolio
-      - section: Portfolio
-        contents: 
-          - href: posts/outbreak-report/index.qmd
-            text: WSP Outbreak Reports
-          - href: posts/post-with-code/index.qmd
-            text: WSP Syndromic Surveillance Updates
+  title: "WSPHA Disease Control - PHQ"
+  # image: "wspha_logo1.png"
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+    prefs-text: "Cookies"
+    
+  google-analytics: 
+    tracking-id: "G-xxxxxxx"
+    anonymize-ip: true
+    
+  announcement: 
+    icon: info-square
+    dismissable: true
+    content: "**Take note** - this website is still under construction"
+    type: info
+    position: below-navbar
+    
+  # sidebar:
+  #   title: "My Portfolio"
+  #   style: "floating"     # or "docked" or "overlay"
+  #   search: true          # optional search box
+  #   contents:
+  #     - href: index.qmd
+  #       text: Home
+  #     # - href: portfolio.qmd
+  #     #   text: Portfolio
+  #     - section: Portfolio
+  #       contents: 
+  #         - href: posts/outbreak-report/index.qmd
+  #           text: WSP Outbreak Reports
+  #         - href: posts/post-with-code/index.qmd
+  #           text: WSP Syndromic Surveillance Updates
   navbar:
     left:
       - text: "Home"
         file: index.qmd
       - text: "Portfolio"
-        # file: portfolio.qmd
         menu: 
-          - text: "Welcome blog"
-            file: posts/welcome/index.qmd
-          - text: "Surveillance Report"
-            file: posts/post-with-code/index.qmd
+          - text: "Weekly Syndromic Surveillance Report"
+            file: posts/weekly-syndromic-reports/index.qmd
+          - text: "Weekly Skin NTDs Reports"
+            file: posts/skin-ntds-reports/index.qmd
           - text: "Outbreak Reports"
             file: posts/outbreak-report/index.qmd
-      - text: "My CV"
+        # file: portfolio.qmd
+      - text: "Authors' Bio & CV"
         file: CV.qmd
+      
     right:
       - icon: linkedin
         href: https://www.linkedin.com/in/raphael-anea-783739113
@@ -53,8 +72,12 @@ format:
       - sandstone
       - brand
     css: bootstrap-sandstone.css
+    head-content: |
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     self-contained: true
     embed-resources: true
-
+title-block-banner: "background-images.jpeg"
+title-block-style: manuscript
+ 
 editor: visual
 

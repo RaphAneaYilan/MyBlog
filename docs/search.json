@@ -1,97 +1,65 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\nMy Work space"
+    "objectID": "posts/weekly-syndromic-reports/index.html#urgent-notifiable-syndromes",
+    "href": "posts/weekly-syndromic-reports/index.html#urgent-notifiable-syndromes",
+    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
+    "section": "3.1 Urgent Notifiable Syndromes",
+    "text": "3.1 Urgent Notifiable Syndromes"
+  },
+  {
+    "objectID": "posts/weekly-syndromic-reports/index.html#respiratory-syndromes",
+    "href": "posts/weekly-syndromic-reports/index.html#respiratory-syndromes",
+    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
+    "section": "3.2 Respiratory Syndromes",
+    "text": "3.2 Respiratory Syndromes"
+  },
+  {
+    "objectID": "posts/weekly-syndromic-reports/index.html#other-syndromes",
+    "href": "posts/weekly-syndromic-reports/index.html#other-syndromes",
+    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
+    "section": "3.3 Other Syndromes",
+    "text": "3.3 Other Syndromes"
   },
   {
     "objectID": "posts/outbreak-report/index.html#result-1",
     "href": "posts/outbreak-report/index.html#result-1",
     "title": "WSP Disease Outbreak Reports",
     "section": "Result 1",
-    "text": "Result 1\nperson variables explained",
-    "crumbs": [
-      "Home",
-      "Portfolio",
-      "WSP Outbreak Reports"
-    ]
+    "text": "Result 1\nFigure 1 person variables explained\n\n\n\n\n\n\n\n\nFigure 1: Temperature and ozone level."
   },
   {
     "objectID": "posts/outbreak-report/index.html#result-2",
     "href": "posts/outbreak-report/index.html#result-2",
     "title": "WSP Disease Outbreak Reports",
     "section": "Result 2",
-    "text": "Result 2\nplace variables explained",
-    "crumbs": [
-      "Home",
-      "Portfolio",
-      "WSP Outbreak Reports"
-    ]
+    "text": "Result 2\nFigure 2 place variables explained\n\n\n\n\n\n\n\n\nFigure 2: Temperature and ozone level."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Raphael Yilan Onilleh Anea",
+    "title": "West Sepik Province Disease Control Program Portfolio",
     "section": "",
-    "text": "About these blogMY PERSONAL BIOAcknowledgement\n\n\nPurpose of this blog is to published the work of Disease Control, Surveillance and Emergencies in West Sepik Province.\n\n\nI’m a dedicated public health leader currently serving as the Provincial Disease Control Program Manager and Deputy Incident Manager at the Provincial Emergency Operations Center (PEOC) in Papua New Guinea. In this role, I lead rapid response teams in routine disease surveillance, TB contact tracing, and active case finding—working at the front line to protect and promote community health.\nAs a Field Epidemiologist and junior faculty with FETP in Papua New Guinea (PNG), I am passionate about building capacity, mentoring future health professionals, and strengthening health systems through data-driven strategies.\nWith a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions.\nI bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity.",
-    "crumbs": [
-      "Home"
-    ]
+    "text": "About these PortfolioAcknowledgements\n\n\n\nPurpose of this blog is to published the work of Disease Control, Surveillance and Emergencies in West Sepik Province."
   },
   {
     "objectID": "CV.html",
     "href": "CV.html",
-    "title": "Raphael Anea (Mr.)",
+    "title": "Authors Bio & CV",
     "section": "",
-    "text": "My Curriculum Vitae"
+    "text": "RAPHAEL YILAN ANEA\nField Epidemiologist and Data Analyst\n\nMy BIOMy Curriculum Vitae\n\n\nI’m a dedicated public health leader currently serving as the Provincial Disease Control Program Manager and Deputy Incident Manager at the Provincial Emergency Operations Center (PEOC) in Papua New Guinea. In this role, I lead rapid response teams in routine disease surveillance, TB contact tracing, and active case finding—working at the front line to protect and promote community health.\nAs a Field Epidemiologist and junior faculty with FETP in Papua New Guinea (PNG), I am passionate about building capacity, mentoring future health professionals, and strengthening health systems through data-driven strategies.\nWith a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions.\nI bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity."
   },
   {
     "objectID": "portfolio.html",
     "href": "portfolio.html",
     "title": "My Portfolio",
     "section": "",
-    "text": "Welcome To My Blog\n\n\n\n\n\n\nMy Journey\n\n\n\n\n\n\n\n\n\nJul 29, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWest Sepik Province Syndromic Surveillance Data Analysis\n\n\n\n\n\n\nCode\n\n\nAnalysis\n\n\nR\n\n\n\n\n\n\n\n\n\nAug 1, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWSP Disease Outbreak Reports\n\n\n\n\n\n\n\n\n\n\n\nMar 8, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Home",
-      "Portfolio"
-    ]
+    "text": "My Work space\n\n\n\n\n\n\nMy Journey\n\n\n\n\n\n\n\n\n\nJul 29, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWest Sepik Province Syndromic Surveillance Data Analysis\n\n\n\n\n\n\nCode\n\n\nAnalysis\n\n\nR\n\n\nDisease Surveillance\n\n\n\n\n\n\n\n\n\nAug 5, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\n\n\n\n\n\n\nWSP Disease Outbreak Reports\n\n\n\n\n\n\n\n\n\n\n\nMar 8, 2025\n\n\nRaphael Anea\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
+    "objectID": "posts/skin-ntds-reports/index.html",
+    "href": "posts/skin-ntds-reports/index.html",
+    "title": "My Work space",
     "section": "",
-    "text": "This report presents an analysis of syndromic surveillance data collected from provincial health facilities. It aims to evaluate the timeliness, completeness, and trends in reported syndromes.",
-    "crumbs": [
-      "Home",
-      "Portfolio",
-      "WSP Syndromic Surveillance Updates"
-    ]
-  },
-  {
-    "objectID": "posts/post-with-code/index.html#study-design",
-    "href": "posts/post-with-code/index.html#study-design",
-    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
-    "section": "2.1 Study Design",
-    "text": "2.1 Study Design",
-    "crumbs": [
-      "Home",
-      "Portfolio",
-      "WSP Syndromic Surveillance Updates"
-    ]
-  },
-  {
-    "objectID": "posts/post-with-code/index.html#analysis",
-    "href": "posts/post-with-code/index.html#analysis",
-    "title": "West Sepik Province Syndromic Surveillance Data Analysis",
-    "section": "2.2 Analysis",
-    "text": "2.2 Analysis",
-    "crumbs": [
-      "Home",
-      "Portfolio",
-      "WSP Syndromic Surveillance Updates"
-    ]
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\nMy Work space"
   }
 ]

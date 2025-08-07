@@ -1,37 +1,32 @@
 ---
-title: "Raphael Yilan Onilleh Anea"
-image: "my_profile_pic.jpg"
+title: "West Sepik Province Disease Control Program Portfolio"
+author: "Raphael Yilan Anea"
+date: "05/08/2025"
+toc: true
+# image: "my_profile_pic.jpg"
 about:
-  template: solana
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/raphael-anea-783739113
-    - icon: facebook
-      text: Facebook
-      href: https://www.facebook.com/profile.php?id=100086260155966
-    - icon: envelope-at-fill
-      text: Email
-      href: ryilan.anea01@gmail.com
-    - icon: github
-      text: GitHub
-      href: https://github.com/RaphAneaYilan
+  template: trestles
+  # links:
+  #   - icon: linkedin
+  #     text: LinkedIn
+  #     href: https://www.linkedin.com/in/raphael-anea-783739113
+  #   - icon: facebook
+  #     text: Facebook
+  #     href: https://www.facebook.com/profile.php?id=100086260155966
+  #   - icon: envelope-at-fill
+  #     text: Email
+  #     href: ryilan.anea01@gmail.com
+  #   - icon: github
+  #     text: GitHub
+  #     href: https://github.com/RaphAneaYilan
 ---
 
 ::: panel-tabset
-# About these blog
+# About these Portfolio
+
+![](disease_data_flow.png)
 
 Purpose of this blog is to published the work of Disease Control, Surveillance and Emergencies in West Sepik Province.
 
-# MY PERSONAL BIO
-
-I’m a dedicated public health leader currently serving as the Provincial Disease Control Program Manager and Deputy Incident Manager at the Provincial Emergency Operations Center (PEOC) in Papua New Guinea. In this role, I lead rapid response teams in routine disease surveillance, TB contact tracing, and active case finding—working at the front line to protect and promote community health.
-
-As a Field Epidemiologist and junior faculty with FETP in Papua New Guinea (PNG), I am passionate about building capacity, mentoring future health professionals, and strengthening health systems through data-driven strategies.
-
-With a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions.
-
-I bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity.
-
-# Acknowledgement
+# Acknowledgements
 :::

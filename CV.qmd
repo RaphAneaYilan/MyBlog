@@ -1,3 +1,44 @@
-My Curriculum Vitae
+---
+title: "Authors Bio & CV"
+author: "Raphael Yilan Anea"
+date: "05/08/2025"
+image: "my_profile_pic.jpg"
+# image-alt: "Raphael Yilan Anea"
+# image-caption: "Field Epidemiologist & Data Analyst"
+
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/raphael-anea-783739113
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/profile.php?id=100086260155966
+    - icon: envelope-at-fill
+      text: Email
+      href: ryilan.anea01@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/RaphAneaYilan
+---
+
+# RAPHAEL YILAN ANEA
+
+Field Epidemiologist and Data Analyst
+
+::: panel-tabset
+## My BIO
+
+I’m a dedicated public health leader currently serving as the Provincial Disease Control Program Manager and Deputy Incident Manager at the Provincial Emergency Operations Center (PEOC) in Papua New Guinea. In this role, I lead rapid response teams in routine disease surveillance, TB contact tracing, and active case finding—working at the front line to protect and promote community health.
+
+As a Field Epidemiologist and junior faculty with FETP in Papua New Guinea (PNG), I am passionate about building capacity, mentoring future health professionals, and strengthening health systems through data-driven strategies.
+
+With a strong interest in data analytics and data science, I regularly use R programming language to analyze health trends and guide public health interventions.
+
+I bring optimism, enthusiasm, and a hands-on approach to every challenge, always seeking opportunities to improve outcomes and advance health equity.
+
+## My Curriculum Vitae
 
 ![](my_cv.pdf){width="100%" height="1000px"}
+:::

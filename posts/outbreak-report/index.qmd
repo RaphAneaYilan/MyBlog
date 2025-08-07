@@ -54,27 +54,40 @@ pacman::p_load(
 
 ## Result 1
 
-person variables explained
+@fig-penguins1 person variables explained
 
 ```{r}
+#| label: fig-penguins1
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
 plot(penguins)
 ```
 
 ## Result 2
 
-place variables explained
+@fig-penguins place variables explained
 
 ```{r}
+#| label: fig-penguins
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
 plot(penguins)
 ```
 
 # Polio Outbreak
 
+@fig-cars
+
 ```{r}
+#| label: fig-cars
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
 plot(cars)
 ```
 
 # ASF Outbreak
+
+@fig-women is the figure...
 
 ```{r}
 #| label: fig-women
