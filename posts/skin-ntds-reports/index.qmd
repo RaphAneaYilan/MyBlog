@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "WSP Skin NTDs Dashboard"
 author: "Raphael Anea"
 date: "2025-07-29"
 order: 1
@@ -9,11 +9,69 @@ format:
     theme: sandstone
 categories: [My Journey]
 ---
+```{r setup, include=FALSE}
+# Small change to demonstrate use of GIT. 
 
+knitr::opts_chunk$set(
+	eval = TRUE,
+	echo = FALSE,
+	warning = FALSE,
+	include = TRUE,
+	message = FALSE
+)
+```
+
+```{r load packages}
+pacman::p_load(
+  rio,          # for importing data
+  here,         # for relative file paths
+  skimr,        # for reviewing the data
+  janitor,      # for cleaning data  
+  epikit,       # for creating age categories
+  tidylog,
+  parsedate,
+  flextable,
+  plotly,
+  reactable,
+  bslib,
+  bsicons,
+  MMWRweek,
+  ISOweek,
+  scales,
+  ggnewscale,
+  tidyr,
+  httr,
+  jsonlite,
+  googlesheets4,
+  ggforce,
+  ggtext,
+  readr,
+  dplyr,
+  stringr,
+  tidyverse    # for data management and visualization
+)
+```
+
+```{r import_googlesheet, include=FALSE}
+
+# Authenticate
+gs4_auth(token = NULL, email = "ryilan.anea01@gmail.com")
+
+# Read the sheet
+ntds_raw <- read_sheet("https://docs.google.com/spreadsheets/d/1leis5g04oK3hptmqCYYIuh3vdsnswdYuCvMMOGkJC2Q/edit?gid=1088358796#gid=1088358796")
+```
 This is the first post in a Quarto blog. Welcome!
 
 ![](thumbnail.jpg)
 
 Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+
+```{r}
+ntd_clean <- ntds_raw %>% 
+  clean_names() %>% 
+  select(-timestamp, -image,-reporting_officer, -case_name, -unique_identifier_uid)
+```
+
+
 
 # My Work space

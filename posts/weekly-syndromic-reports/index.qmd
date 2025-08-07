@@ -23,7 +23,6 @@ editor_options:
   chunk_output_type: inline
 ---
 
-
 ```{r setup, include=FALSE}
 # Small change to demonstrate use of GIT. 
 
@@ -115,7 +114,6 @@ facility_count <- phess_clean %>%
   select(health_facility, district, end_date, simple_cough)
 
 ```
-
 
 # REPORT COMPLETENESS
 
@@ -273,7 +271,7 @@ ggplot(timeliness_rate, aes(x = fct_reorder(health_facility, timeliness_rate, .d
   coord_flip()
 ```
 
-# REPORTING SYNDROMES _(Still a work in progress)_
+# REPORTING SYNDROMES *(Still a work in progress)*
 
 ```{r all_syndromes, fig.height= 7, fig.width=8}
 
@@ -467,4 +465,3 @@ all_synd_pivot_long_format <- all_syndromes %>%
 ) +
   scale_y_continuous(expand = c(0,0))
 ```
-
