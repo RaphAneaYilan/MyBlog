@@ -3,22 +3,23 @@ title: "West Sepik Province Disease Control Program Portfolio"
 author: "Raphael Yilan Anea"
 date: "05/08/2025"
 toc: true
-# image: "my_profile_pic.jpg"
+image: "my_profile_pic.jpg"
+
 about:
   template: trestles
-  # links:
-  #   - icon: linkedin
-  #     text: LinkedIn
-  #     href: https://www.linkedin.com/in/raphael-anea-783739113
-  #   - icon: facebook
-  #     text: Facebook
-  #     href: https://www.facebook.com/profile.php?id=100086260155966
-  #   - icon: envelope-at-fill
-  #     text: Email
-  #     href: ryilan.anea01@gmail.com
-  #   - icon: github
-  #     text: GitHub
-  #     href: https://github.com/RaphAneaYilan
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/raphael-anea-783739113
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/profile.php?id=100086260155966
+    - icon: envelope-at-fill
+      text: Email
+      href: ryilan.anea01@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/RaphAneaYilan
 ---
 
 
@@ -33,4 +34,3 @@ It would be a resourceful site for my colleague in FETP PNG, the public health p
 ![](disease_data_flow.png)
 
 # Acknowledgements
-

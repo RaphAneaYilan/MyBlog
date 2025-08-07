@@ -1,0 +1,15 @@
+{
+  "hash": "b8b679b5917235c9685b6b144bbccec3",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"WSP Skin NTDs Dashboard\"\nauthor: \"Raphael Anea\"\ndate: \"2025-07-29\"\norder: 1\nimage: \"d2pjourney.jpg\"\nformat: \n  html:\n    theme: sandstone\ncategories: [My Journey]\n---\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\nThis is the first post in a Quarto blog. Welcome!\n\n![](thumbnail.jpg)\n\nSince this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n\n# My Work space\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
