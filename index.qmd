@@ -22,12 +22,13 @@ about:
       href: https://github.com/RaphAneaYilan
 ---
 
-
 # About these Portfolio
 
+::: {.justified-text}
 The purpose of this platform is to showcase my professional expertise, academic background, and contributions in the field of public health, disease surveillance, and epidemiology. Through this site, I aim to share relevant projects, publications, tools, and resources that support evidence-based practices, collaboration, and knowledge exchange within the global health community.
 
 It would be a resourceful site for my colleague in FETP PNG, the public health professionals, clinicians, students and front line health care workers in West Sepik Province and Papua New Guinea.
+:::
 
 # Data Flow
 

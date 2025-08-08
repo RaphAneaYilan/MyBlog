@@ -31,25 +31,47 @@ website:
         text: Home
       # - href: portfolio.qmd
       #   text: Portfolio
-      - section: Portfolio
+      - section: Surveillance & Outbreaks
         contents:
           - href: posts/outbreak-report/index.qmd
-            text: WSP Outbreak Reports
+            text: Outbreak Reports
           - href: posts/post-with-code/index.qmd
-            text: WSP Syndromic Surveillance Updates
+            text: Syndromic Surveillance
+          - href: posts/skin-ntds-reports/index.qmd
+            text: Neglected Tropica Diseases
+      - section: Disease Control Programs
+        contents:
+          - href: disease_control_programs/tuberculosis/index.qmd
+            text: Tuberculosis Updates
+          - href: disease_control_programs/malaria/index.qmd
+            text: Malaria Updates
+          - href: disease_control_programs/hiv_sti/index.qmd
+            text: HIV & Program Updates
+          - href: disease_control_programs/non_communicable_diseases/index.qmd
+            text: NCDs Updates
   navbar:
     left:
       - text: "Home"
         file: index.qmd
       - text: "Portfolio"
         menu: 
-          - text: "Weekly Syndromic Surveillance Report"
+          - text: "Weekly Syndromic Surveillance Reports"
             file: posts/weekly-syndromic-reports/index.qmd
           - text: "Weekly Skin NTDs Reports"
             file: posts/skin-ntds-reports/index.qmd
           - text: "Outbreak Reports"
             file: posts/outbreak-report/index.qmd
         # file: portfolio.qmd
+      - text: "Disease Control Programs"
+        menu:
+          - text: "Quarterly Tuberculosis Reports, Feedback"
+            file: disease_control_programs/tuberculosis/index.qmd
+          - text: "Quarterly Malaria Reports, Feedback"
+            file: disease_control_programs/malaria/index.qmd
+          - text: "Monthly HIV/STI Reports Feedback"
+            file: disease_control_programs/hiv_sti/index.qmd
+          - text: "Quarterly NCDs Report Feedbacks"
+            file: disease_control_programs/non_communicable_diseases/index.qmd
       - text: "Authors' Bio & CV"
         file: CV.qmd
       

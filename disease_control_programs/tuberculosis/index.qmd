@@ -1,0 +1,36 @@
+---
+title: "Quarterly Tuberculosis Reports"
+author: "Raphael Anea"
+date: "2025-08-05"
+order: 1
+categories: [Code, Analysis, R, Disease Surveillance]
+# image: "diseases_surveillance_system.png"
+# logo: "logo.png"
+title-block-banner: true
+title-block-style: manuscript
+
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: sandstone
+    number-sections: true
+    self-contained: true
+    code-fold: true
+    fig-cap-location: bottom
+
+editor_options:
+  chunk_output_type: inline
+---
+
+# Drug Susceptible Tuberculosis Reports
+
+## TB Case notification
+
+## TB Contact Tracing
+
+# Drug resistance Tuberculosis Reports
+
+## DR TB Case Notification
+
+## Contact Tracing

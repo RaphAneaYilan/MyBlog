@@ -9,6 +9,7 @@ format:
     theme: sandstone
 categories: [My Journey]
 ---
+
 ```{r setup, include=FALSE}
 # Small change to demonstrate use of GIT. 
 
@@ -60,6 +61,7 @@ gs4_auth(token = NULL, email = "ryilan.anea01@gmail.com")
 # Read the sheet
 ntds_raw <- read_sheet("https://docs.google.com/spreadsheets/d/1leis5g04oK3hptmqCYYIuh3vdsnswdYuCvMMOGkJC2Q/edit?gid=1088358796#gid=1088358796")
 ```
+
 This is the first post in a Quarto blog. Welcome!
 
 ![](thumbnail.jpg)
@@ -71,7 +73,5 @@ ntd_clean <- ntds_raw %>%
   clean_names() %>% 
   select(-timestamp, -image,-reporting_officer, -case_name, -unique_identifier_uid)
 ```
-
-
 
 # My Work space

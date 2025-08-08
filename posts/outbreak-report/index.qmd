@@ -4,11 +4,21 @@ author: "Raphael Anea"
 date: "03/08/2025"
 order: 3
 image: "outbreak_investigation.jpg"
+title-block-banner: true
+title-block-style: manuscript
+
 format:
   html:
-    self-contained: true
-    theme: sandstone
     toc: true
+    toc-depth: 2
+    theme: sandstone
+    number-sections: true
+    self-contained: true
+    code-fold: true
+    fig-cap-location: bottom
+
+editor_options:
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}

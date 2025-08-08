@@ -1,0 +1,39 @@
+---
+title: "Monthly HIV/STI Reports"
+author: "Raphael Anea"
+date: "2025-08-05"
+order: 3
+categories: [Code, Analysis, R, Disease Surveillance]
+# image: "diseases_surveillance_system.png"
+# logo: "logo.png"
+title-block-banner: true
+title-block-style: manuscript
+
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: sandstone
+    number-sections: true
+    self-contained: true
+    code-fold: true
+    fig-cap-location: bottom
+
+editor_options:
+  chunk_output_type: inline
+---
+
+:::{.panel-tabset}
+# HIV Reports
+
+## Indicator 1
+
+## Indicator 2
+
+# STI Reports
+
+## Indicator 1
+
+## Indicator 2
+
+:::

@@ -1,11 +1,10 @@
 ---
-title: "West Sepik Province Syndromic Surveillance Data Analysis"
+title: "Weekly Syndromic Surveillance Report"
 author: "Raphael Anea"
 date: "2025-08-05"
 order: 2
 categories: [Code, Analysis, R, Disease Surveillance]
 image: "diseases_surveillance_system.png"
-# logo: "logo.png"
 title-block-banner: true
 title-block-style: manuscript
 
@@ -114,6 +113,8 @@ facility_count <- phess_clean %>%
   select(health_facility, district, end_date, simple_cough)
 
 ```
+
+::: {.panel-tabset}
 
 # REPORT COMPLETENESS
 
@@ -465,3 +466,4 @@ all_synd_pivot_long_format <- all_syndromes %>%
 ) +
   scale_y_continuous(expand = c(0,0))
 ```
+:::
