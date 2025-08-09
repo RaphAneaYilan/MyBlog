@@ -1,0 +1,154 @@
+---
+title: "WSP Disease Outbreak Reports"
+author: "Raphael Anea"
+date: "03/08/2025"
+order: 3
+image: "outbreak_investigation.jpg"
+title-block-banner: true
+title-block-style: manuscript
+
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    theme: sandstone
+    number-sections: true
+    self-contained: true
+    code-fold: true
+    fig-cap-location: bottom
+
+editor_options:
+  chunk_output_type: inline
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	eval = TRUE,
+	echo = FALSE,
+	warning = FALSE,
+	include = TRUE,
+	message = FALSE
+)
+```
+
+```{r load packages}
+pacman::p_load(
+  rio,          # for importing data
+  here,         # for relative file paths
+  skimr,        # for reviewing the data
+  janitor,      # for cleaning data  
+  epikit,       # for creating age categories
+  tidylog,
+  parsedate,
+  flextable,
+  plotly,
+  reactable,
+  bslib,
+  bsicons,
+  MMWRweek,
+  ISOweek,
+  scales,
+  ggnewscale,
+  tidyr,
+  httr,
+  jsonlite,
+  googlesheets4,
+  ggforce,
+  ggtext,
+  tidyverse    # for data management and visualization
+)
+```
+
+
+
+
+::: panel-tabset
+# Typhoid Outbreak
+
+## Result 1
+
+@fig-penguins1 person variables explained
+
+
+
+
+```{r}
+#| label: fig-penguins1
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
+plot(penguins)
+```
+
+
+
+
+## Result 2
+
+@fig-penguins place variables explained
+
+
+
+
+```{r}
+#| label: fig-penguins
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
+plot(penguins)
+```
+
+
+
+
+# Polio Outbreak
+
+@fig-cars
+
+
+
+
+```{r}
+#| label: fig-cars
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
+plot(cars)
+```
+
+
+
+
+# ASF Outbreak
+
+@fig-women is the figure...
+
+
+
+
+```{r}
+#| label: fig-women
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
+plot(women)
+```
+
+
+
+
+@fig-airquality further explores the impact of temperature on ozone level.
+
+
+
+
+```{r}
+#| label: fig-airquality
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
+```
+
+
+
+:::
+

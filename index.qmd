@@ -35,3 +35,5 @@ It would be a resourceful site for my colleague in FETP PNG, the public health p
 ![](disease_data_flow.png)
 
 # Acknowledgements
+
+tom^[This is the footnote text.]
